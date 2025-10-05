@@ -141,7 +141,7 @@ export default function ContactForm() {
                   href="mailto:nitinkumar@polimi.it,krniteen@gmail.com"
                   className="text-slate-900 font-medium hover:text-emerald-600 transition-colors"
                 >
-                  nitinkumar@polimi.it,  krniteen@gmail.com
+                  niteenkumar@polimi.it,  krniteen@gmail.com
                 </a>
               </div>
             </div>

@@ -110,16 +110,6 @@ function App() {
                 <Download className="w-5 h-5" />
                 Download CV
               </a>
-              <a
-                href="https://www.youtube.com/live/FDfUlS1tYPU?si=mDFFtEcMOal6FACU"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-6 py-3 bg-white text-slate-900 rounded-lg font-medium hover:bg-slate-50 transition-all duration-200 shadow-md hover:shadow-lg hover:-translate-y-0.5 border border-slate-200"
-              >
-                <Youtube className="w-5 h-5 text-red-600" />
-                Watch Presentation
-                <ExternalLink className="w-4 h-4" />
-              </a>
             </div>
           </div>
         </section>
@@ -317,8 +307,19 @@ function App() {
                 <div>
                   <h3 className="text-lg font-bold text-slate-900 mb-2">Keynote Speaker</h3>
                   <p className="text-slate-700 leading-relaxed">
-                    Keynote Speaker, International Seminar on Indian Trade: Status and Recent Trends (2021).
+                    Keynote Speech, International Seminar on Indian Trade: Status and Recent Trends (2021).
                   </p>
+                  {/* Watch Presentation Button */}
+                   <a
+                href="https://www.youtube.com/live/FDfUlS1tYPU?si=mDFFtEcMOal6FACU"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-6 py-3 bg-white text-slate-900 rounded-lg font-medium hover:bg-slate-50 transition-all duration-200 shadow-md hover:shadow-lg hover:-translate-y-0.5 border border-slate-200"
+              >
+                <Youtube className="w-5 h-5 text-red-600" />
+                Watch Presentation
+                <ExternalLink className="w-4 h-4" />
+              </a>
                 </div>
               </div>
             </div>

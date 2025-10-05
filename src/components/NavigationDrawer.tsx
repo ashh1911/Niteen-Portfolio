@@ -156,7 +156,7 @@ export default function NavigationDrawer() {
                   <GraduationCap className="w-7 h-7 text-white" />
                 </div>
                 <div>
-                  <div className="font-bold text-slate-900">Nitin Kumar</div>
+                  <div className="font-bold text-slate-900">Niteen Kumar</div>
                   <div className="text-xs text-slate-600">Professor</div>
                 </div>
               </div>
